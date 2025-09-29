@@ -41,3 +41,16 @@ A clean, professional Streamlit-based web interface designed for seamless intera
 2. **Install Python dependencies**:
 ```bash
 pip install streamlit requests
+
+# Install Ollama (if not already installed)
+curl -fsSL https://ollama.ai/install.sh | sh
+
+# Pull the Mistral model
+ollama pull mistral
+
+# Start Ollama service
+ollama serve
+
+
+
+
