@@ -54,6 +54,7 @@ ollama serve
 🎮 Usage
 #Start the Streamlit application
 
+source .venv/bin/activate 
 streamlit run mistral_agent.py
 
 #Access the web interface
