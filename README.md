@@ -51,6 +51,17 @@ ollama pull mistral
 # Start Ollama service
 ollama serve
 
+🎮 Usage
+#Start the Streamlit application
+
+streamlit run mistral_agent.py
+
+#Access the web interface
+http://localhost:8501
+
+⚙️ Configuration
+
+OLLAMA_HOST = "http://localhost:11434"  # Default Ollama port
 
 
 
